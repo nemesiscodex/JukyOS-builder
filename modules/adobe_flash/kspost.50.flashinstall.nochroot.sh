@@ -6,5 +6,5 @@
 path=$(read_config adobe_flash plugin_path)
 [ -n "$path" ] || exit 0
 
-mkdir -p $INSTALL_ROOT/usr/lib/mozilla/plugins
-cp -v $path $INSTALL_ROOT/usr/lib/mozilla/plugins/libflashplayer.so
+echo "mkdir -p \$INSTALL_ROOT/usr/lib/mozilla/plugins"
+echo "cp -v $path \$INSTALL_ROOT/usr/lib/mozilla/plugins/libflashplayer.so"

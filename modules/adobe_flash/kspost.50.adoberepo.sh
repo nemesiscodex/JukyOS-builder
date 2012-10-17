@@ -6,7 +6,8 @@
 path=$(read_config adobe_flash plugin_path)
 [ -n "$path" ] && exit 0
 
-cat <<EOF >$INSTALL_ROOT/etc/yum.repos.d/adobe-linux-i386.repo
+cat <<FOE
+cat <<EOF >/etc/yum.repos.d/adobe-linux-i386.repo
 [adobe-linux-i386]
 name=Adobe Systems Incorporated
 baseurl=http://linuxdownload.adobe.com/linux/i386/
@@ -14,3 +15,4 @@ enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
 EOF
+FOE
