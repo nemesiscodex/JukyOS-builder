@@ -1,0 +1,18 @@
+#!/bin/bash
+DEFAULT_REPO="`ls /etc/yum.repos.d/ | grep juky`"
+#LOGDIR=/home/olpc/.log/juky-cron.log
+CONFIG=/home/olpc/.juky-updater
+if [ -f ${CONFIG} ]; then
+	. ${CONFIG}
+else
+	JUKY_REPO="$DEFAULT_REPO"
+fi
+
+YUMARG="--disablerepo=* --skip-broken --quiet --tolerant"
+
+for I in $JUKY_REPO; do
+	YUMARG="$YUMARG --enablerepo=${I%%.repo}"
+done
+YUM="/usr/bin/yum $YUMARG -e0 update -y"
+#echo "[`date`]" >> $LOGDIR
+$YUM #&>> $LOGDIR
