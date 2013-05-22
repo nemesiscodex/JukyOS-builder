@@ -3,11 +3,13 @@
 
 . $OOB__shlib
 
-custom_image=$(read_config bootanim custom_image)
+custom_image1=$(read_config bootanim custom_image1)
+custom_image2=$(read_config bootanim custom_image2)
 theme=$(read_config bootanim theme)
 
 if [ -n "$custom_image" ]; then
-	echo "cp $custom_image \$INSTALL_ROOT/usr/share/plymouth/themes/olpc/custom.png"
+	echo "cp $custom_image1 \$INSTALL_ROOT/usr/share/plymouth/themes/olpc/custom.png"
+	echo "cp $custom_image2 \$INSTALL_ROOT/usr/share/plymouth/themes/olpc/fedora.png"
 fi
 
 if [ -n "$theme" ]; then
