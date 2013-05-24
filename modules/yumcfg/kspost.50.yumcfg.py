@@ -39,7 +39,7 @@ for for_excludes, name, url in addrepos:
     print "baseurl=%s" % url
     print "enabled=1"
     print "metadata_expire=7d"
-    print "gpgcheck=0"
+    print "gpgcheck=1"
     print "EOF\n\n"
 
 # write shell code to force enable selected repos
