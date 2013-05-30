@@ -1,0 +1,14 @@
+[library_config]
+core_library_path = /usr/share/sugar/activities
+home_library_path = /home/olpc/Library
+template_path = /usr/share/library-common
+config_path = /usr/share/library-common/config
+cache_path = /home/olpc/.library_pages/library_metadata.pck
+i18n_path = /home/olpc/.i18n
+
+main_categories = activities, books, health, images, media, science, search, other
+ignore_dirs = config, css, js, lib, .git
+
+
+
+

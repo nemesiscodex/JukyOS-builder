@@ -1,0 +1,193 @@
+body {
+	font-family: "DejaVu Sans", sans-serif;
+	margin: 0;
+}
+
+/*Library-------------------------------------------------------------------*/
+
+.library {
+        margin-bottom: 20pt;
+}
+
+/*Entry---------------------------------------------------------------------*/
+
+a.entry {
+	position: relative;
+	display: block;
+	background: #eee;
+	min-height: 60px;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	border-bottom: solid 1px gray;
+}
+
+/*Image Entry thumbnail-----------------------------------------------------*/
+
+.thumbnail {
+	position:absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.thumbnail > img {
+	height: 50px;
+	width: 50px;
+/*	height: 60px;
+	width: 60px;*/
+	border:none;
+	max-height: 110px;
+	max-width: 110px;
+}
+
+/*Text Entry thumbnail------------------------------------------------------*/
+
+.text-thumbnail {
+	position:absolute;
+	top: 5px;
+	left: 10px;
+	bottom: 5px;
+	width: 97px;
+	
+	padding: 5px;
+	border: solid 1px #ccc;
+	background: #fff;
+	color: #000;
+	font-size: .5em;
+	
+	overflow: hidden;
+}
+
+.text-thumbnail + div {
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+	width: 108px;
+	height: 10px;
+
+	background-image: url(../config/images/tear.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
+.text-thumbnail > p {
+	margin: 0px;
+	top: 10px;
+	bottom: 10px;
+}
+
+.text-thumbnail > p:after {
+  content: "…";
+}
+
+/*Entry metadata------------------------------------------------------------*/
+
+.thumbnail + .metadata {
+	margin-left: 120px;
+}
+.text-thumbnail + * + .metadata {
+	margin-left: 120px;
+}
+.link-thumbnail + .metadata {
+	margin-left: 120px;
+}
+
+.metadata {
+	margin-left: 120px;
+	display:block;
+	margin:0;
+	margin-right: 18%;
+	color: #006000;
+	padding: 10px;
+}
+
+.metadata > li {
+	display: block;
+}
+
+.metadata > .title {
+	font-size:1em;
+}
+
+/*.metadata > .author:before {
+	content: "Author: ";
+	display: inline;
+}*/
+
+.metadata > .author {
+	color: #28392E;
+	font-size: .8em;
+}
+
+.metadata > .description {
+	color:gray;
+	font-size: .7em;
+	font-style: italic;
+	margin-top: 0.5em;
+}
+
+.metadata > .language, .metadata > .date, .metadata > .publisher, .metadata > .license, .metadata > .site {
+	position: absolute;
+	right: 20pt;
+	color: gray;
+}
+.metadata > .language {
+	display:none;
+}
+.metadata > .date {
+	top:1em;
+	font-size: .9em;
+}
+.metadata > .publisher {
+	top:2.8em;
+	max-width:15em;
+	text-align:right;
+	font-size:.7em;
+}
+.metadata > .license {
+	top:4em;
+	max-width:15em;
+	text-align:right;
+	font-size:.7em;
+}
+.metadata > .site {
+	top:0.7em;
+	text-align:right;
+	font-size:.7em;
+}
+
+/*Link instead of entry -----------------------------------------------*/
+
+a.link {
+	position: relative;
+	display: block;
+	background: #f6f6f6;
+	min-height: 20px;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	border-bottom: solid 1px gray;
+}
+
+.link-title {
+        position:absolute;
+/*        top: 10px;
+        left: 10px;
+        bottom: 10px; */
+        padding: 5px;
+        font-size: 1.2em;
+}
+.link-thumbnail {
+	position:absolute;
+	top: 5px;
+	left: 10px;
+	bottom: 5px;
+	width: 97px;
+	
+	padding: 5px;
+	border: solid 0px #ccc;
+	color: #000;
+	font-size: .5em;
+	
+	overflow: hidden;
+}

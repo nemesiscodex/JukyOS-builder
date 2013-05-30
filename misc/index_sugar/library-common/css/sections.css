@@ -1,0 +1,212 @@
+body {
+	background: #fff;
+	font-family: "DejaVu Sans", sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	display: block;
+	color: white;
+	font-weight: normal;
+	padding: 5pt 5pt 6pt 10pt;
+	margin-top: 0;
+	margin-bottom: 0;
+  	border-bottom: 1px solid gray;
+}
+
+p {
+	padding: 0em 0em 0em 1.0em;
+}
+
+/*Books & Reference-------------------------------------------------------*/
+
+.books a.entry:hover {
+	background: #F2DBA2;
+	text-decoration: none;
+}
+
+.books .metadata > .title {
+	color: #DE801A;
+}
+
+.books a {
+	color: #DE801A;
+	text-decoration: none;
+}
+
+.books a:hover {
+	text-decoration: underline;
+}
+
+.books h1, .books h2, .books h3, .books h4, .books h5 {
+	background: #F78F1E;
+}
+
+/*Science & Math-----------------------------------------------------------*/
+
+.science a.entry:hover {
+	background: #AEDE96;
+	text-decoration: none;
+}
+
+.science .metadata > .title {
+	color: #6EBE46
+}
+
+.science a {
+	color: #569736;
+	text-decoration: none;
+}
+
+.science a:hover {
+	text-decoration: underline;
+}
+
+.science h1, .science h2, .science h3, .science h4, .science h5 {
+	background: #6EBE46;
+}
+
+/*Images & Maps-----------------------------------------------------------*/
+
+.images a.entry:hover {
+	background: #CAE1E8;
+	text-decoration: none;
+}
+
+.images .metadata > .title {
+	color: #0092CF;
+}
+
+.images a {
+	color: #0092CF;
+	text-decoration: none;
+}
+
+.images a:hover {
+	text-decoration: underline;
+}
+
+.images h1, .images h2, .images h3, .images h4, .images h5 {
+	background: #0092CF;
+}
+
+/*Music & Video-----------------------------------------------------------*/
+
+.media a.entry:hover {
+	background: #F4BED2;
+	text-decoration: none;
+}
+
+.media .metadata > .title {
+	color: #E20177;
+}
+
+.media a {
+	color: #E20177;
+	text-decoration: none;
+}
+
+.media a:hover {
+	text-decoration: underline;
+}
+
+.media h1, .media h2, .media h3, .media h4, .media h5 {
+	background: #E20177;
+}
+
+/*Activities & Games------------------------------------------------------*/
+
+.activities a.entry:hover {
+	background: #CAE1E8;
+	text-decoration: none;
+}
+
+.activities .metadata > .title {
+	color: #0092CF;
+}
+
+.activities a {
+	color: #0092CF;
+	text-decoration: none;
+}
+
+.activities a:hover {
+	text-decoration: underline;
+}
+
+.activities h1, .activities h2, .activities h3, .activities h4, .activities h5 {
+	background: #0092CF;
+}
+
+/*Search & Internet -----------------------------------------------------------------*/
+
+.search a.entry:hover {
+	background: #90B6D8;
+	text-decoration: none;
+}
+
+.search .metadata > .title {
+	color: #004678;
+}
+
+.search a {
+	color: #004678;
+	text-decoration: none;
+}
+
+.search a:hover {
+	text-decoration: underline;
+}
+
+.search h1, .search h2, .search h3, .search h4, .search h5 {
+	background: #004678;
+}
+
+/* Health & Water -------------------------------------------------------------------*/
+
+.health a.entry:hover {
+	background: #F2DBA2;
+	text-decoration: none;
+}
+
+.health .metadata > .title {
+	color: #F78F1E;
+}
+
+.health a {
+	color: #F78F1E;
+	text-decoration: none;
+}
+
+.health a:hover {
+	text-decoration: underline;
+}
+
+.health h1, .health h2, .health h3, .health h4, .health h5 {
+	background: #F78F1E;
+}
+
+/*Other Topics ------------------------------------------------------*/
+
+.other a.entry:hover {
+	background: #CAE1E8
+	text-decoration: none;
+}
+
+.other .metadata > .title {
+	color: #0092CF;
+}
+
+.other a {
+	color: #0092CF;
+	text-decoration: none;
+}
+
+.other a:hover {
+	text-decoration: underline;
+}
+
+.other h1, .other h2, .other h3, .other h4, .other h5 {
+	background: #0092CF;
+}
+

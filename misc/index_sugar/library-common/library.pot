@@ -1,0 +1,125 @@
+# Strings for the OLPC Library 
+# Copyright : this POT's contents are relased into the public domain.
+# Author: SJ Klein <sj@laptop.org>, December 3, 2007
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: olpc-library version 2\n"
+"Report-Msgid-Bugs-To: sj@laptop.org"
+"POT-Creation-Date: 2007-12-01 22:55-0400\n"
+"PO-Revision-Date: 2007-12-08 21:00-0400\n"
+"Last-Translator: none \n"
+"Language-Team: all <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: make_index.py:101
+msgid "UTF-8 Error"
+msgstr "index in '%s' is not UTF-8.  Skipping."
+
+#: config/categories.info:3
+msgid "Books display_name"
+msgstr "books"
+
+#: config/categories.info:4
+msgid "Books long_name"
+msgstr "literature & reference"
+
+#: config/categories.info:11
+msgid "Science display_name"
+msgstr "science"
+
+#: config/categories.info:12
+msgid "Science long_name"
+msgstr "math & science"
+
+#: config/categories.info:19
+msgid "Images display_name"
+msgstr "images"
+
+#: config/categories.info:20
+msgid "Images long_name"
+msgstr "images & maps"
+
+#: config/categories.info:27
+msgid "Media display_name"
+msgstr "media"
+
+#: config/categories.info:28
+msgid "Media long_name"
+msgstr "music & video"
+
+#: config/categories.info:35
+msgid "Activitites display_name"
+msgstr "activities"
+
+#: config/categories.info:36
+msgid "Activities long_name"
+msgstr "activities & games"
+
+#: config/categories.info:43
+msgid "Search display_name"
+msgstr "search"
+
+#: config/categories.info:44
+msgid "Search long_name"
+msgstr "search & internet"
+
+#: config/categories.info:51
+msgid "Health display_name"
+msgstr "health"
+
+#: config/categories.info:52
+msgid "Health long_name"
+msgstr "health & sanitation"
+
+#: config/categories.info:59
+msgid "Other display_name"
+msgstr "other"
+
+#: config/categories.info:60
+msgid "Other long_name"
+msgstr "other topics"
+
+#: activities/biology/library/library.info:2        
+msgid "biology"
+msgstr "biology"
+
+#: activities/dictionary-m1/library/library.info:2        
+msgid "dictionary-m1"
+msgstr "dictionaries"
+
+#: activities/search/library/library.info:2        
+msgid "search"
+msgstr "search the web"
+
+#: activities/wp/library/library.info:2        
+msgid "wp"
+msgstr "encyclopedia"
+
+#: activities/bundle-archive/library/library.info:2        
+msgid "bundle-archive"
+msgstr "find activities"
+
+#: activities/xo-start/library/library.info:2        
+msgid "xo-start"
+msgstr "about your xo"
+
+#: activities/xo-guide/library/library.info:2        
+msgid "xo-guide"
+msgstr "using your xo"
+
+#: activities/worldfactbook-maps/library/library.info:2        
+msgid "worldfactbook-maps"
+msgstr "world maps"
+
+#: activities/music/library/library.info:2        
+msgid "music"
+msgstr "music"
+
+#: activities/wdl/library/library.info:2        
+msgid "wdl"
+msgstr "world culture"
+

@@ -1,0 +1,24 @@
+<!dDOCTYPE HTML>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>OLPC Library</title>
+    
+	<link rel="stylesheet" href="{{common_url}}/css/master.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="{{common_url}}/css/summary.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="{{common_url}}/css/entry.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="{{common_url}}/css/sections.css" type="text/css" media="screen" charset="utf-8"/>
+
+	<script type="text/javascript" src="{{common_url}}/js/library.js"></script>
+</head>
+
+<body class="{{ category }}">
+<div id="header" style="background: {{ primary_color }};"></div>
+{% include '_sidebar.tmpl' %}
+
+<div id="content">
+{% block content %}
+{% endblock %}
+</div>
+</body>
+</html>
+

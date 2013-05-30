@@ -1,0 +1,86 @@
+{% extends 'layout.tmpl'  %}
+
+{% block content %}
+<style><!--
+
+body,td,a,p,.h{font-family:arial,sans-serif}
+.h{font-size:20px}
+.h{color:#3366cc}
+.q{color:#00c}
+--></style>
+<script>
+<!--
+function sf(){document.f.q.focus();}
+window.rwt=function(b,d,f,j,k,g,l){var a=window.encodeURIComponent?encodeURIComponent:escape,h="",i="",c=b.href.split("#"),e="";if(d){h="&oi="+a(d)}if(f){i="&cad="+a(f)}if(g){e="&usg="+g}b.href="/url?sa=t"+h+i+"&ct="+a(j)+"&cd="+a(k)+"&url="+a(c[0]).replace(/\+/g,"%2B")+"&ei=BkUMRpOuHJuwavSw3aYD"+e+l+(c[1]?"#"+c[1]:"");b.onmousedown="";return true};// -->
+</script>
+</head>
+
+<body class="links" onload="sf()">
+<h2>Search the Web</h2>
+<br/>
+<center>
+<script defer><!--
+function qs(el){if(window.RegExp&&window.encodeURIComponent){var ue=el.href,qe=encodeURIComponent(document.f.q.value);if(ue.indexOf("q=")!=-1){el.href=ue.replace(new RegExp("q=[^&$]*"),"q="+qe);}else{el.href=ue+"&q="+qe;}}return 1;}
+function togDisp(e){stopB(e);var elems=document.getElementsByName('more');for(var i=0;i<elems.length;i++){var obj=elems[i],dp="";if(obj.style.display==""){dp="none";}obj.style.display=dp;}return false;}
+function stopB(e){if(!e)e=window.event;e.cancelBubble=true;}
+document.onclick=function(event){var elems=document.getElementsByName('more');if(elems[0].style.display==""){togDisp(event);}}
+//-->
+</script>
+
+<table border=0 cellspacing=0 cellpadding=4 width="700px">
+<form action="http://google.com/search" name="f" target="_top">
+<tr>
+<td width="130px" align="center"><img src="/usr/share/library-common/img/google-logo.gif" width="100px"/></td>
+<td width="300px" align="center" nowrap>
+<input maxlength=2048 name=q size=40 title="Search the Internet" value="" height=40 style="background:#ffffdd;"></td>
+<td align="left" nowrap><input name=btnG type=submit value="Search the Web" height=40></td>
+</tr>
+</form>
+</table>
+</center>
+
+<br/>
+<h2>Find OLPC materials</h2>
+<br/>
+<center>
+<table border=0 cellspacing=0 cellpadding=4 width="700px">
+<form method="get" action="http://www.google.com/search" target="_top">
+<tr>
+<td width="130px" align="center"><img src="/usr/share/library-common/img/olpc-logo.png" width="111px"/></td>
+<td width="300px" align="center" nowrap>
+<input name=sitesearch type=hidden value="laptop.org"><input maxlength=1024 name=q size=40 title="Search OLPC" value="" height=40 style="background:#ffffdd;"></td>
+<td align="left" nowrap><input name=btn1 type=submit value=" &nbsp;&nbsp;Search &nbsp;OLPC&nbsp;&nbsp; " height=40></td>
+</tr>
+</form>
+</table>
+</center>
+<br/><br/>
+<div style="text-align:center; font-size:150%;">
+<a target="_top" href="http://wiki.laptop.org/go/">OLPC Wiki</a> 
+&nbsp;&middot;&nbsp;
+<a target="_top" href="http://activities.sugarlabs.org/">Activities</a> 
+&nbsp;&middot;&nbsp;
+<a target="_top" href="http://wiki.laptop.org/go/Collections">Collections</a>
+<br/>
+<a target="_top" href="http://dev.laptop.org/">Project tracker</a> 
+&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+<a target="_top" href="http://schoolserver/">Local schoolserver</a> 
+</div>
+
+<br/><br/>
+
+<center>
+<table>
+<tr><td align=left> 
+To <b><a href="http://wiki.laptop.org/go/Updates">update</a> your system</b> or learn more about it: 
+see the <a href="http://wiki.laptop.org/go/Release_notes"><font color="blue">release notes</font></a>. 
+</td></tr>
+<tr><td align=left>
+To <b>modify your system</b> or run an experimental build:
+<a href="file:///home/.devkey.html"><font color=blue>get a developer key</font></a>.
+</td></tr>
+</table>
+</center>
+
+
+{% endblock %}

@@ -1,0 +1,48 @@
+.entry {
+	background: #fff;
+	color: #000;
+	font-family: "DejaVu Sans", sans-serif;
+	margin: 10pt;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.metadata > li {
+	display: block;
+}
+
+.metadata {
+	color: gray;
+	max-width: 35em;
+}
+
+.metadata > .title {
+	font-size:2em;
+	margin-right: 18%;
+}
+
+.metadata > .language, .metadata > .date, .metadata > .publisher {
+	font-size: 1em;
+	text-align:right;
+	position: absolute;
+	right: 10pt;
+}
+.metadata > .language {
+	display:none;
+}
+.metadata > .date {
+	top:1em;
+}
+.metadata > .publisher {
+	top:2.8em;
+	max-width:20em;
+	font-size:.8em;
+}
+
+.content > p {
+	max-width: 35em;
+	line-height: 1.5em;
+}

@@ -1,0 +1,55 @@
+[books]
+display_name = 本
+long_name = 文学・文献
+primarycolor = #F78F1E
+secondarycolor = #F2DBA2
+icon = books.png
+
+[science]
+display_name = 科学
+long_name  = 数学・科学
+primarycolor = #6EBE46
+secondarycolor = #72C1DB
+icon = science.png
+
+[images]
+display_name = 画像
+long_name = 画像・地図
+primarycolor = #0092CF
+secondarycolor = #CAE1E8
+icon = images.png
+
+[media]
+display_name = メディア
+long_name = 音楽・ビデオ
+primarycolor = #E20177
+secondarycolor = #F4BED2
+icon = music.png
+
+[activities]
+display_name = アクティビティ
+long_name = アクティビティ・ゲーム
+primarycolor = #0092CF
+secondarycolor = #CAE1E8
+icon = activities.png
+
+[search]
+display_name = 検索
+long_name = 検索・インターネット
+primarycolor = #004678
+secondarycolor = #72C1DB
+icon = links.png
+
+[health]
+display_name = 健康
+long_name = 健康・衛生
+primarycolor = #D03000
+secondarycolor = #F2C8B3
+icon = uniwiki.png
+
+[other]
+display_name = その他
+long_name = その他のトピック
+primarycolor = #670065
+secondarycolor = #DDBADD
+icon = other.png

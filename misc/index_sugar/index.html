@@ -1,0 +1,158 @@
+<!dDOCTYPE HTML>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Paraguay Educa</title>
+    
+	<link rel="stylesheet" href="/usr/share/library-common/css/master.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="/usr/share/library-common/css/summary.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="/usr/share/library-common/css/entry.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="/usr/share/library-common/css/sections.css" type="text/css" media="screen" charset="utf-8"/>
+	<script type="text/javascript" src="/usr/share/library-common/js/boton.js"></script>
+
+	<script type="text/javascript" src="/usr/share/library-common/js/library.js"></script>
+</head>
+
+<body class="search">
+<div id="header" style="background: #004678;"></div>
+<div id="sidebar">
+
+<!--  window.location = '/library//';" -->
+    
+    <div class='menu-item' id='menu-media'
+         onmouseover='highlight(this, "#E20177")'
+         onmouseout='dim(this, "#CCC");'
+         onclick="selectSection('media');">
+      <img class='icon' src='/usr/share/library-common/config/images/music.png'>
+      <span class='menu-label'>Multimedios</span>
+    </div>
+    
+    <div class='submenu' id='submenu-media'>
+      
+      <div id='submenu-item-JamendoMusic' class='submenu-item'
+           onmouseover='highlight(this, "#F4BED2")'
+           onmouseout='subdim(this)';">
+        <span class='submenu-label'><a href="http://biblioteca.paraguayeduca.org/biblioteca/contenidos_multimedias/musicas/">Musicas</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class='menu-item' id='menu-other'
+         onmouseover='highlight(this, "#670065")'
+         onmouseout='dim(this, "#CCC");'
+         onclick="selectSection('other');">
+      <img class='icon' src='/usr/share/library-common/config/images/other.png'>
+      <span class='menu-label'>Otros</span>
+    </div>
+    
+    <div class='submenu' id='submenu-other'>
+      
+      <div id='submenu-item-TranslationDictionary' class='submenu-item'
+           onmouseover='highlight(this, "#DDBADD")'
+           onmouseout='subdim(this)';">
+        <span class='submenu-label'><a href="http://www.paraguayeduca.org">Paraguay Educa</a></span>
+      </div>
+      
+      <div id='submenu-item-WorldFactbookMaps' class='submenu-item'
+           onmouseover='highlight(this, "#DDBADD")'
+           onmouseout='subdim(this)';">
+        <span class='submenu-label'><a href="http://xoevolution.blogspot.com">Xo Evolution</a></span>
+      </div>
+      
+    </div>
+
+    
+
+</div>
+
+<script>
+  highlight($('menu-search'), "#004678");
+  selectSection('search');
+
+  selectBundle('search');
+  highlight($('submenu-item-search'), "#72C1DB");
+</script>
+
+<div id="content">
+
+<style><!--
+
+body,td,a,p,.h{font-family:arial,sans-serif}
+.h{font-size:20px}
+.h{color:#3366cc}
+.q{color:#00c}
+--></style>
+<script>
+<!--
+function sf(){document.f.q.focus();}
+window.rwt=function(b,d,f,j,k,g,l){var a=window.encodeURIComponent?encodeURIComponent:escape,h="",i="",c=b.href.split("#"),e="";if(d){h="&oi="+a(d)}if(f){i="&cad="+a(f)}if(g){e="&usg="+g}b.href="/url?sa=t"+h+i+"&ct="+a(j)+"&cd="+a(k)+"&url="+a(c[0]).replace(/\+/g,"%2B")+"&ei=BkUMRpOuHJuwavSw3aYD"+e+l+(c[1]?"#"+c[1]:"");b.onmousedown="";return true};// -->
+</script>
+</head>
+
+<body class="links" onload="sf()">
+<h2>Buscar en la Web</h2>
+<br/>
+<center>
+<script defer><!--
+function qs(el){if(window.RegExp&&window.encodeURIComponent){var ue=el.href,qe=encodeURIComponent(document.f.q.value);if(ue.indexOf("q=")!=-1){el.href=ue.replace(new RegExp("q=[^&$]*"),"q="+qe);}else{el.href=ue+"&q="+qe;}}return 1;}
+function togDisp(e){stopB(e);var elems=document.getElementsByName('more');for(var i=0;i<elems.length;i++){var obj=elems[i],dp="";if(obj.style.display==""){dp="none";}obj.style.display=dp;}return false;}
+function stopB(e){if(!e)e=window.event;e.cancelBubble=true;}
+document.onclick=function(event){var elems=document.getElementsByName('more');if(elems[0].style.display==""){togDisp(event);}}
+//-->
+</script>
+
+<table border=0 cellspacing=0 cellpadding=4 width="700px">
+<form action="http://google.com/search" name="f" target="_top">
+<tr>
+<td width="130px" align="center"><img src="/usr/share/library-common/img/google-logo.gif" width="100px"/></td>
+<td width="300px" align="center" nowrap>
+<input maxlength=2048 name=q size=40 title="Search the Internet" value="" height=40 style="background:#ffffdd;"></td>
+<td align="left" nowrap><input name=btnG type=submit value="Buscar en la Web" height=40></td>
+</tr>
+</form>
+</table>
+</center>
+
+<br/>
+<h2>Buscar materiales en Plone</h2>
+<br/>
+<center>
+<table border=0 cellspacing=0 cellpadding=4 width="700px">
+<form method="get" action="http://www.google.com/search" target="_top">
+<tr>
+<td width="130px" align="center"><img src="/usr/share/library-common/img/logo.png" width="90px"/></td>
+<td width="300px" align="center" nowrap>
+<input name=sitesearch type=hidden value="http://biblioteca.paraguayeduca.org/biblioteca/"><input maxlength=1024 name=q size=40 title="Search OLPC" value="" height=40 style="background:#ffffdd;"></td>
+<td align="left" nowrap><input name=btn1 type=submit value=" &nbsp;&nbsp;Buscar &nbsp;Plone&nbsp;&nbsp; " height=40></td>
+</tr>
+</form>
+</table>
+</center>
+</div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div align="center">
+<div class="menuBar" style="width:80%;">
+<a class="menuButton" href="https://mail.google.com/" onclick="return buttonClick(event, 'fileMenu');" onmouseover="buttonMouseover(event, 'fileMenu');">Correo</a> -
+<a class="menuButton" href="" onclick="return buttonClick(event, 'ActivityMenu');" onmouseover="buttonMouseover(event, 'ActivityMenu');">Actividades</a> -
+<a class="menuButton" href="" onclick="return buttonClick(event, 'SchoolMenu');" onmouseover="buttonMouseover(event, 'SchoolMenu');">School Server</a> -
+<a class="menuButton" href="" onclick="return buttonClick(event, 'LinkMenu');" onmouseover="buttonMouseover(event, 'LinkMenu');">Enlaces</a>
+</div>
+<div id="ActivityMenu" class="menu">
+<a class="menuItem" href="http://activities.sugarlabs.org/">Sugar Labs</a>
+<a class="menuItem" href="http://activities.paraguayeduca.org/">Paraguay Educa</a>
+<a class="menuItem" href="http://ceibaljam.org/?q=lista_descargas">Ceibal Jam</a>
+<a class="menuItem" href="http://schoolserver/activities">Schoolserver</a>
+</div>
+<div id="SchoolMenu" class="menu">
+<a class="menuItem" href="http://schoolserver/subir">Subir</a>
+<a class="menuItem" href="http://schoolserver/archivos">Archivos</a>
+</div>
+<div id="LinkMenu" class="menu">
+<a class="menuItem" href="http://www.paraguayeduca.org/">Paraguay Educa</a>
+<a class="menuItem" href="http://educacion-pyeduca.blogspot.com/">Paraguay Educa - Educación</a>
+<a class="menuItem" href="http://biblioteca.paraguayeduca.org/">Biblioteca Digital</a>
+</div>
+
+</body>
+</html>

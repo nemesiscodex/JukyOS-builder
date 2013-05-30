@@ -1,0 +1,33 @@
+<div id="sidebar">
+
+<!--  window.location = '/library/{{cat.bundles[0].name}}/';" -->
+    {% for cat in categories %}
+    <div class='menu-item' id='menu-{{ cat.name }}'
+         onmouseover='highlight(this, "{{ cat.primarycolor }}")'
+         onmouseout='dim(this, "#CCC");'
+         onclick="selectSection('{{ cat.name }}');">
+      <img class='icon' src='{{common_url}}/config/images/{{ cat.icon }}'>
+      <span class='menu-label'>{{ cat.display_name }}</span>
+    </div>
+    
+    <div class='submenu' id='submenu-{{ cat.name }}'>
+      {% for bundle in cat.bundles %}
+      <div id='submenu-item-{{bundle.name}}' class='submenu-item'
+           onmouseover='highlight(this, "{{ cat.secondarycolor }}")'
+           onmouseout='subdim(this)';">
+        <span class='submenu-label'><a href="{{bundle.directory}}/{{bundle.activity_start}}">{{ bundle.long_name }}</a></span>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% endfor %}
+
+</div>
+
+<script>
+  highlight($('menu-{{category}}'), "{{primary_color}}");
+  selectSection('{{category}}');
+
+  selectBundle('{{bundle}}');
+  highlight($('submenu-item-{{bundle}}'), "{{secondary_color}}");
+</script>

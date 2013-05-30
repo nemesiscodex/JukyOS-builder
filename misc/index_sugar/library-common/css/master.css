@@ -1,0 +1,159 @@
+html, body {
+	background: #FFF;
+	font: 9pt Helvetica;
+	color: #333;
+	height: 100%; 
+	margin:0;
+	padding:0;
+	border:none
+}
+
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+
+#header {
+	height: 0pt;
+	color: #FFF;
+	font-size: 12pt;
+	border-bottom: 1px solid gray;
+}
+
+#content {
+    position : absolute;
+    left: 100pt;
+    top: 0pt;
+    right: 0px;
+}
+
+
+#sidebar {
+    position: absolute;
+    top: 0pt;
+    width: 100pt;
+	background: #CCC;
+	border-right: solid 1px gray;
+	vertical-align: top;
+}
+
+		
+.menu-item {
+	border-bottom: 1px solid gray;
+	height: 3.5em;
+	min-height: 30pt;
+}
+
+.menu-label {
+	position: relative;
+	top: 12pt;
+	text-decoration: none;
+}
+
+.submenu {
+    background: #FFF;
+	display: none;
+}
+
+.submenu-item {
+        height: 100%;
+	color: #333;
+        padding: 4pt 4pt 4pt 10pt;
+        border: 1px solid #f6f6f6;
+}
+
+.submenu-label {
+	position: relative;
+        height: 100%;
+	color: #333;
+}
+
+.submenu-label a:visited, .submenu-label a, .submenu-label a:hover {
+    color: #333 !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+
+.icon {
+	float: left;
+	width: 25px;
+	padding: 7pt;
+	border: blue;
+}
+
+div.menuBar,
+div.menuBar a.menuButton,
+div.menu,
+div.menu a.menuItem {
+  font-family: "MS Sans Serif", Arial, sans-serif;
+  font-size: 14pt;
+  font-style: normal;
+  font-weight: normal;
+  color: #AFAFAF;
+  text-align: center;
+}
+div.menuBar {
+  background-color: transparent;
+  border: transparent;
+  padding: 4px 2px 4px 2px;
+  text-align: center;
+}
+div.menuBar a.menuButton {
+  background-color: transparent;
+  border: transparent;
+  color: #000000;
+  cursor: default;
+  left: 0px;
+  margin: 1px;
+  padding: 2px 6px 2px 6px;
+  position: relative;
+  text-decoration: none;
+  top: 0px;
+  z-index: 100;
+  text-align: left;
+}
+div.menuBar a.menuButton:hover {
+  background-color: transparent;
+  color: #AFAFAF;
+}
+div.menuBar a.menuButtonActive,
+div.menuBar a.menuButtonActive:hover {
+  background-color: transparent;
+  color: #000000;
+  left: 1px;
+  top: 1px;
+  text-align: left;
+}
+div.menu {
+  background-color: transparent;
+  left: 0px;
+  padding: 0px 1px 1px 0px;
+  position: absolute;
+  top: 0px;
+  visibility: hidden;
+  z-index: 101;
+  text-align: left;
+}
+div.menu a.menuItem {
+  color: #FF6F00;
+  cursor: default;
+  display: block;
+  padding: 3px 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: left;
+}
+div.menu a.menuItem:hover, div.menu a.menuItemHighlight {
+  background-color: #FF750A;
+  color: #000000;
+}
+div.menu a.menuItem span.menuItemText {}
+div.menu a.menuItem span.menuItemArrow {
+  margin-left: -.75em;
+}
+div.menu div.menuItemSep {
+  border-top: 1px solid #909090;
+  border-bottom: transparent;
+  margin: 4px 2px;
+}

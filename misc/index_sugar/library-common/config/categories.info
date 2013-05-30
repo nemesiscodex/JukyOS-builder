@@ -1,0 +1,55 @@
+[books]
+display_name = books
+long_name = literature & reference
+primarycolor = #F78F1E
+secondarycolor = #F2DBA2
+icon = books.png
+
+[science]
+display_name = science
+long_name  = math & science
+primarycolor = #6EBE46
+secondarycolor = #72C1DB
+icon = science.png
+
+[images]
+display_name = images
+long_name = images & maps
+primarycolor = #0092CF
+secondarycolor = #CAE1E8
+icon = images.png
+
+[media]
+display_name = media
+long_name = music & video
+primarycolor = #E20177
+secondarycolor = #F4BED2
+icon = music.png
+
+[activities]
+display_name = activities
+long_name = activities & games
+primarycolor = #0092CF
+secondarycolor = #CAE1E8
+icon = activities.png
+
+[search]
+display_name = search
+long_name = search & internet
+primarycolor = #004678
+secondarycolor = #72C1DB
+icon = links.png
+
+[health]
+display_name = health
+long_name = health & sanitation
+primarycolor = #D03000
+secondarycolor = #F2C8B3
+icon = uniwiki.png
+
+[other]
+display_name = other
+long_name = other topics
+primarycolor = #670065
+secondarycolor = #DDBADD
+icon = other.png
