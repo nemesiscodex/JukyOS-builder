@@ -4,6 +4,11 @@ sed -i -e 's/dmix.rate 48000/dmix.rate 44100/' /usr/share/alsa/alsa.conf
 # Don't try and autospawn pulseaudio (#9470)
 sed -i -e 's/; autospawn = yes/autospawn = no/' /etc/pulse/client.conf
 
+#enable control+alt+erase to restart sugar
+sed -i -e '/DontZap/d' /usr/share/olpc-utils/xorg.conf.d/xo1.conf
+sed -i -e '/DontZap/d' /usr/share/olpc-utils/xorg.conf.d/xo1.5.conf
+sed -i -e '/DontZap/d' /usr/share/olpc-utils/xorg.conf.d/xo1.75.conf
+
 # Slim icon theme caches
 # these are useful only if disk seeks take a long time.
 # rather than remove them completely, we rebuild them as index-only
